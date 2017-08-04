@@ -14,4 +14,6 @@ ng g c recipes/recipe-detail
 ng g c recipes/recipe-item     
 
 ng g c shopping-list --spec false
-ng g c shopping-edit --spec false
+ng g c shopping-list/shopping-edit --spec false
+
+
