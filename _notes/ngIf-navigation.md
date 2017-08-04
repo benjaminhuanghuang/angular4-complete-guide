@@ -10,3 +10,7 @@
   }
 
 ## user ng-if in app
+  ```
+    <app-recipes *ngIf="loadedFeature === 'recipe'"></app-recipes>
+    <app-shopping-list *ngIf="loadedFeature === 'shopping-list'"></app-shopping-list>
+  ```
