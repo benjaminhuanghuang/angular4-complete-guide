@@ -4,6 +4,10 @@
 
     </app-shopping-edit>
     <hr>
-    <p>The list</p>
+    <ul class="list-group">
+      <a href="#" class="list-group-item" style="cursor: pointer" *ngFor="let i of ingredients">
+        {{i.name}} {{i.amount}}
+      </a>
+    </ul>
   </div>
 </div>
