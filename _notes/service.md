@@ -22,9 +22,7 @@
 ## Hierarchical Injection
   App Module
 
-  App 
-  
-  Component
+  Components
 
 ## Inject service to service
 ```
