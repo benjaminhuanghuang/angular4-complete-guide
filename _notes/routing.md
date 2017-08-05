@@ -25,3 +25,6 @@ export class AppRoutingModule {
 ```
   <li routerLinkActive="active"> <a routerLink="/recipes">Recipes</a> </li>
 ```
+
+## Child Route
+  
