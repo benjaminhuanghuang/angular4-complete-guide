@@ -1,10 +1,11 @@
 
-```
-  <li> <a routerLink="/recipe">Recipes</a> </li>
-  <li> <a routerLink="/shopping-list">Shopping List</a> </li>
-```
+import { NgModule } from "@angular/core";
+import { Routes, RouterModule } from '@angular/router';
 
-```
+//
+import { RecipesComponent } from './recipes/recipes.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
+
 const appRoutes: Routes = [
   { path: '', redirectTo: '/recipes', pathMatch: 'full' },
   { path: 'recipes', component: RecipesComponent },
@@ -19,9 +20,3 @@ const appRoutes: Routes = [
 export class AppRoutingModule {
 
 }
-```
-
-## Active link/route
-```
-  <li routerLinkActive="active"> <a routerLink="/recipes">Recipes</a> </li>
-```

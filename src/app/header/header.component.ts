@@ -6,13 +6,13 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  @Output() featureSelected = new EventEmitter<string>();
+  // @Output() featureSelected = new EventEmitter<string>();
   constructor() { }
 
   ngOnInit() {
   }
-
-  onSelect(feature: string){
-    this.featureSelected.emit(feature);
-  }
+  // Use Routing to replace ngIf
+  // onSelect(feature: string){
+  //   this.featureSelected.emit(feature);
+  // }
 }
