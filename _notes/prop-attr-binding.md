@@ -16,3 +16,9 @@ Not each html attribute has corresponding dom property
 <td [attr.colspan]="colSpan">
 ```
 
+## Two way binding
+```
+imports FormModel in app.module
+
+<input [(ngModel)]="email">
+```

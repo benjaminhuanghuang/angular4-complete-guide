@@ -16,4 +16,5 @@ ng g c recipes/recipe-item
 ng g c shopping-list --spec false
 ng g c shopping-list/shopping-edit --spec false
 
+ng s        # create service
 
